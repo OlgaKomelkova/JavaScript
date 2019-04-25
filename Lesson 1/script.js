@@ -16,9 +16,9 @@
      savings: 'false',
  };
  
- appData.budget = money,
- appData.timeData = time,
- appData.expenses1[article] = costs,
+ appData.budget = money;
+ appData.timeData = time;
+ appData.expenses1[article] = costs;
  appData.expenses2[article2] = costs2;
  
  console.log(appData);
