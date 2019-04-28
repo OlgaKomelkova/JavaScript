@@ -20,8 +20,8 @@ for (let i = 0; i < 2; i++) {
         console.log("done");
         appData.expenses[a] = b;
     } else if ( (typeof(a)) !== 'string' && (typeof(a))=== null && (typeof (b))=== null
-        && a=== '' && b=== '' && a.length > 50) {
-    } else {
+        && a=== '' && b=== '' && a.length > 50); 
+    else {
         alert("Ошибка");   
         i--;
     } 
@@ -39,8 +39,8 @@ do {
         console.log("done");
         appData.expenses[a] = b;
     } else if ( (typeof(a)) !== 'string' && (typeof(a))=== null && (typeof (b))=== null
-        && a=== '' && b=== '' && a.length > 50) {
-    } else {
+        && a=== '' && b=== '' && a.length > 50); 
+    else {
         alert("Ошибка");   
         i--;
     } 
@@ -60,8 +60,8 @@ while (i<2) {
         console.log("done");
         appData.expenses[a] = b;
     } else if ( (typeof(a)) !== 'string' && (typeof(a))=== null && (typeof (b))=== null
-        && a=== '' && b=== '' && a.length > 50) {
-    } else {
+        && a=== '' && b=== '' && a.length > 50); 
+    else {
         alert("Ошибка");   
         i--;
     } 
