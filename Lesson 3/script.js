@@ -31,9 +31,7 @@ function chooseExpenses() {
             && a !== '' && b !== '' && a.length < 50) {
             console.log("done");
             appData.expenses[a] = b;
-        } else if ( (typeof(a)) !== 'string' && (typeof(a))=== null && (typeof (b))=== null
-            && a=== '' && b=== '' && a.length > 50); 
-          else {
+        } else {
             alert("Ошибка");   
             i--;
         } 
@@ -86,9 +84,7 @@ function chooseOptExpenses() {
             console.log("done");
             appData.optionalExpenses[i+1] = a;
             console.log(appData.optionalExpenses);
-        } else if ( (typeof(a)) !== 'string' && (typeof(a))=== null 
-            && a=== '' && a.length > 50); 
-          else {
+        } else {
             alert("Ошибка");   
             i--;
         } 
