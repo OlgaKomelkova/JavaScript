@@ -81,10 +81,10 @@ let appData = {
             let items = prompt('Что принесет дополнительный доход (Перечисли через запятую)', '');
 
             if ((typeof (items)) === 'string' && items != '' && (typeof (items)) != null) {
-                appData.income = items.split(', ');
+                appData.income = items.split(',');
                 appData.income.push(prompt('Что может что-то еще?'));
                 appData.income.sort();
-                appData.income.forEach(function (item, i, income) {
+                appData.income.forEach(function (item, i) {
                     let n = i + 1;
                     console.log(n + ' - Способ доп. заработка: ' + item);
                 });
