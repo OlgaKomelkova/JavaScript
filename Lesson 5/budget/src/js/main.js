@@ -1,24 +1,24 @@
 /*jshint esversion: 6 */
 
 let start = document.getElementById('start'),
-    budgetValue = document.querySelectorAll('.budget-value'),
-    dayBudgetValue = document.querySelectorAll('.daybudget-value'),
-    levelValue = document.querySelectorAll('.level-value'),
+    budgetValue = document.querySelector('.budget-value'),
+    dayBudgetValue = document.querySelector('.daybudget-value'),
+    levelValue = document.querySelector('.level-value'),
     expensesValue = document.querySelector('.expenses-value'), 
     incomeValue = document.querySelector('.income-value'),
     yearSavingsValue = document.querySelector('.yearsavings-value'),
-    expensesItem = document.querySelector('.expenses-item'),
+    expensesItem = document.querySelectorAll('.expenses-item'),
     buttonExpensesItem = document.querySelector('.expenses-item-btn'),
     buttonOptionalExpenses = document.querySelector('.optionalexpenses-btn'),
     buttonCount = document.querySelector('.count-budget-btn'),
     optionalExpensesItem = document.querySelectorAll('.optionalexpenses-item'),
     chooseIncome = document.querySelector('.choose-income'),
-    checkSavings = document.querySelectorAll('.checksavings'),
+    checkSavings = document.querySelector('.checksavings'),
     sum = document.querySelector('#sum'),
     percent = document.querySelector('#percent'),
-    yearValue = document.querySelectorAll('.year-value'),
-    monthValue = document.querySelectorAll('.month-value'),
-    dayValue = document.querySelectorAll(".day-value");
+    yearValue = document.querySelector('.year-value'),
+    monthValue = document.querySelector('.month-value'),
+    dayValue = document.querySelector(".day-value");
 
     console.log(start);
     console.log(budgetValue);
