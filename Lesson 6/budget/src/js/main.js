@@ -40,14 +40,14 @@ let start = document.getElementById('start'),
         dayValue.value = new Date(Date.parse(time)).getDate();
     });
 
-    buttonCount.disabled = true;
+    buttonExpensesItem.disabled = true;
 
     expensesItem.forEach(function (element) {
     element.addEventListener('change', function () {
         if (element.value == '') {
-            buttonCount.disabled = true;
+            buttonExpensesItem.disabled = true;
             } else {
-                buttonCount.disabled = false;
+                buttonExpensesItem.disabled = false;
             }
         });
     });
