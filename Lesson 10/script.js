@@ -21,7 +21,7 @@ class Options {
 	}
 }
 
-let element = new Options(50, 100, '#ccc', 15, 'center');
+let element = new Options(100, 100, '#ADFF2F', 30);
 element.createBlock();
 
   
